@@ -5,7 +5,7 @@ This policy applies in addition to the [General Staff](../staff-policy.md) and [
 
 **Breaking any of these rules will result in disiplinary action being taken**
 ## Reviews and Feedback
-- All maintainers must follow the [PR Review](../maintainer/review-procedure.md) and [Hotfix Procedures](../maintainer/hotfix-procedure.md) when they apply.
+- All maintainers must follow the [PR review](../maintainer/content-review-procedure.md) and [hotfix procedures](../maintainer/hotfix-procedure.md) when they apply.
 - Maintainers should try to the best of their ability, to keep PR authors informed on the status of their PRs.
 - Maintainers should keep public criticism of code *constructive* and avoid making comments in regards to the authors of the code. **Harsh but fair** citicism of code is *acceptable*, but criticism of its author is not.
 - Maintainers should try to perform code reviews *whenever possible*, getting content into the game is everyone's responsibility.
@@ -18,20 +18,3 @@ This policy applies in addition to the [General Staff](../staff-policy.md) and [
 - Maintainers may only host playtests with a Propermin from the admin team who must handle ahelps and log the playtest as an event. 
 - Maintainers **must** deadmin while playing.
 - **Any violation of the above rules will lead to in-game permissions being indefinitely revoked.**
-
-## Changing Maintainer Policy
-
-- Any Maintainer can propose a change to the Maintainer Policy.
-- The proposal must be made in the /Internal/Maintainers/ category on Discourse.
-- The proposal must have a vote open for at least 72 hours.
-    - This may be extended if there is a significant amount of discussion.
-- The proposal must have a supermajority (66%) vote in favor to pass.
-- A PR to the Docs repository can be made at any time, even if the vote is still ongoing.
-    - If there is an ongoing vote, the PR must not be merged until the vote has concluded.
-
-### Exceptions
-- Lead Maintainers can change the policy without a vote if it is an emergency or the change is minor.
-    - An emergency is defined as a situation where the policy is causing immediate harm to the project.
-    - A minor change is defined as a change that does not significantly impact the responsibilities of Maintainers.
-- A vote may be skipped if the change is minor and the Lead Maintainers agree, but the Maintainers must be informed of the change.
-- A vote is always required for changing the policy that defines the rules on how Maintainer Policy is changed.
