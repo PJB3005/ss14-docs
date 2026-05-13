@@ -4,7 +4,7 @@ In some rare cases, you may have to test your engine changes against the launche
 
 Download [SS14.Launcher](https://github.com/space-wizards/SS14.Launcher) from GitHub, compile it, yada yada. You'll notice you have a very funny button when you run it:
 
-![](../assets/engine-development/launcher-dev-menu.png)
+![](../../assets/engine-development/launcher-dev-menu.png)
 
 Tick both checkboxes, then set the text box to the `release/` directory of the Robust you're working out of. This will make the launcher use exclusively local engine builds you've made, regardless of what server you connect to.
 

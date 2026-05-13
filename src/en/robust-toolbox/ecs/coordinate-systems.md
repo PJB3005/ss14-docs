@@ -1,6 +1,6 @@
 # Coordinate Systems
 
-This document describes the measurement and coordinate systems inside the RobustToolbox engine. Any GamePacks should be using the same standards as RobustToolbox.
+This document describes the measurement and coordinate systems inside the RobustToolbox engine. Any games should be using the same standards as RobustToolbox.
 
 ## 1 The World
 The world is the 2D space inside a Map. The 2D world exists on the X/Y plane, and the camera appears to be above the surface looking down at it from the sky.

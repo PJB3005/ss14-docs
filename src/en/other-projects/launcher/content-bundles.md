@@ -48,7 +48,7 @@ Here's the JSON data that can be in the `rt_content_bundle.json`:
 
 Content bundles theoretically make it pretty damn easy to side-load cheats into the game along with the rest of the official server content. You could theoretically make a content bundle that simply contains extra cheat code in `/Assemblies/` and otherwise just loads the latest version of whatever server you're connecting to.
 
-To mitigate this, [Content Manifests](../../robust-toolbox/content-manifests.md) allow limiting the list of assemblies that will be loaded from `/Assemblies/` via the `clientAssemblies` property. Since content bundles are always loaded *after* the game contents, they cannot replace any files and servers can limit the assemblies loaded to the ones they provide.
+To mitigate this, [Content Manifests](../../robust-toolbox/content-loading/content-manifests.md) allow limiting the list of assemblies that will be loaded from `/Assemblies/` via the `clientAssemblies` property. Since content bundles are always loaded *after* the game contents, they cannot replace any files and servers can limit the assemblies loaded to the ones they provide.
 
 ## Authentication
 

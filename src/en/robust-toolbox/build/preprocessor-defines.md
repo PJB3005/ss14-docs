@@ -16,7 +16,7 @@ You generally shouldn't need to look at these for content development, these are
 
 * `FULL_RELEASE`: Whether we are currently building for release that will be played by users. This is necessary to set up some code such as resources correctly in the final build.
 * `DEVELOPMENT`: The opposite of `FULL_RELEASE`. Always true for local development, false for published releases.
-* `WINDOWS`/`UNIX`/`LINUX`/`MACOS`: Whether we are compiling for specific platforms. In a lot of cases, `OperatingSystem.IsX()` checks at runtime are used instead, as conditional compilation can be convenient.
-* `EXCEPTION_TOLERANCE`: Make the game more crash-resilient by inserting try-catch everywhere. The game is intentionally fragile on debug to encourage people to fix their bugs more.
+* `WINDOWS`/`UNIX`/`LINUX`/`MACOS`: Whether we are compiling for specific platforms. In a lot of cases, `OperatingSystem.IsX()` checks at runtime are used instead, as conditional compilation can be less convenient.
+* `EXCEPTION_TOLERANCE`: Make the game more crash-resilient by inserting try-catch everywhere. The game is intentionally fragile on debug to encourage people to fix their crash bugs more.
 * `CLIENT_SCRIPTING`: Whether to enable client-side C# Interactive. This is disabled for release builds due to security and size concerns.
 * `USE_SYSTEM_SQLITE`: Whether to use the system's SQLite lib instead of the built-in `e_sqlite` lib. Used for FreeBSD.

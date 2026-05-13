@@ -9,7 +9,7 @@ Grids use the same physics code (box2d) as everything else. You should [read up 
 
 We generate fixtures for each chunk and attach them to the grid's body. Whenever a tile updates we regenerate all of the fixtures for that chunk; we also prefer to generate fixtures as large as possible to reduce their overall count. For instance, if a 16x16 chunk had all of its tiles filled then it would have 1 fixture that's 16x16. In SS14 this looks as follows:
 
-![grids.jpg](../../assets/images/grids-overlay.jpg)<!--Lol image nerd-->
+![grids.jpg](../../../assets/images/grids-overlay.jpg)<!--Lol image nerd-->
 *Red lines represent the bounds of the fixtures. An SS14 map may be comprised of hundreds of fixtures.
 *In the bottom-left you can see the seam between the neighbouring chunks. Fixtures are only generated on a per-chunk basis so won't be any larger.
 

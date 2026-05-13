@@ -21,7 +21,7 @@ Implements support for rendering web content such as HTML pages in windows and U
 
 Currently, [Chromium Embedded Framework](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework) is used as implementation for this, but this may be subject to change in the future if we ever explore better alternatives.
 
-This can take more than a hundred megabytes of disk space to install because of how huge CEF is. God have mercy.
+This can take more than three hundred megabytes of disk space to install because of how huge CEF is. God have mercy.
 
 ## Module Versions
 

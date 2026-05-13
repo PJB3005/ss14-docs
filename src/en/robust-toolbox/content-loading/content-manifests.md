@@ -5,7 +5,7 @@ For various technical reasons, some data about your game is useful before the en
 The current things that can be specified in the file are as such:
 
 * `modules`: List of [engine modules](./robust-modules.md) to load. 
-* `assemblyPrefix`: Name prefix of valid content assembly files to load. Must still be in the `/Assemblies/` directory in the VFS.
+* `assemblyPrefix`: Name prefix of valid content assembly files to load. Must still be in the `/Assemblies/` directory in the VFS. Note that changing this may not be compatible with [sandboxing](./sandboxing.md).
 * `windowIconSet`: Directory that contains a set of window icons to load. Multiple should be provided for various sizes.
 * `splashLogo`: Logo image to show in the window while the engine is loading.
 * `defaultWindowTitle`: Default window title to show.

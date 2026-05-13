@@ -31,7 +31,6 @@ General Development
   - [Beginner FAQ](en/general-development/tips/beginner-faq.md)
   - [Troubleshooting FAQ](en/general-development/tips/troubleshooting-faq.md)
   - [Debugging Tools](en/general-development/tips/debugging-tools.md)
-  - [PRs With Engine Changes](en/general-development/tips/prs-with-engine-changes.md)
   - [Writing Guidebook Entries](en/general-development/tips/writing-guidebook-entries.md)
   - [Config File Reference](en/general-development/tips/config-file-reference.md)
   - [YAML Crash Course](en/general-development/tips/yaml-crash-course.md)
@@ -62,16 +61,18 @@ Robust Toolbox
 
 ----------------------
 
-- [ECS](en/robust-toolbox/ecs.md)
+- [Overview](en/robust-toolbox/overview.md)
+- [Game Project Structure](en/robust-toolbox/game-project-structure.md)
+- [ECS](en/robust-toolbox/ecs/ecs.md)
+  - [Coordinate Systems](en/robust-toolbox/ecs/coordinate-systems.md)
+  - [Transform]()
+    - [Entity Coordinates](en/robust-toolbox/ecs/transform/entity-coordinates.md)
+    - [Physics](en/robust-toolbox/ecs/transform/physics.md)
+    - [Grids](en/robust-toolbox/ecs/transform/grids.md)
 - [Netcode]()
   - [Net Entities](en/robust-toolbox/netcode/net-entities.md)
   - [Connection Sequence](en/robust-toolbox/netcode/connection-sequence.md)
   - [Potentially Visible Set]()
-- [Coordinate Systems](en/robust-toolbox/coordinate-systems.md)
-- [Transform]()
-  - [Entity Coordinates](en/robust-toolbox/transform/entity-coordinates.md)
-  - [Physics](en/robust-toolbox/transform/physics.md)
-  - [Grids](en/robust-toolbox/transform/grids.md)
 - [Toolshed](en/robust-toolbox/toolshed.md)
   - [Types](en/robust-toolbox/toolshed/types.md)
   - [Toolshed and (S)CSI](en/robust-toolbox/toolshed/toolshed-and-scsi.md)
@@ -82,24 +83,35 @@ Robust Toolbox
     - [General](en/robust-toolbox/toolshed/commands/general.md)
     - [Miscellaneous](en/robust-toolbox/toolshed/commands/misc.md)
   - [Toolshed Examples](en/robust-toolbox/toolshed/toolshed-examples.md)
-- [User Interface](en/robust-toolbox/user-interface.md)
-- [IoC](en/robust-toolbox/ioc.md)
+- [UI]()
+  - [User Interface](en/robust-toolbox/ui/user-interface.md)
+- [Code Structure]()
+  - [IoC](en/robust-toolbox/code-structure/ioc.md)
 - [Rendering]()
   - [Lighting and FoV](en/robust-toolbox/rendering/lighting-and-fov.md)
   - [Shaders](en/robust-toolbox/rendering/shaders.md)
   - [Sprites and Icons](en/robust-toolbox/rendering/sprites-and-icons.md)
-- [Serialization](en/robust-toolbox/serialization.md)
-- [Sandboxing](en/robust-toolbox/sandboxing.md)
-- [Content Manifests](en/robust-toolbox/content-manifests.md)
-- [User Data Directory](en/robust-toolbox/user-data-directory.md)
-- [Robust Modules](en/robust-toolbox/robust-modules.md)
+- [Data]()
+  - [Serialization](en/robust-toolbox/data/serialization.md)
+- [Working on RobustToolbox](en/robust-toolbox/modifying/overview.md)
+  - [PRs with engine changes](en/robust-toolbox/modifying/prs-with-engine-changes.md)
+  - [Testing against launcher](en/robust-toolbox/modifying/testing-against-launcher.md)
+- [Data Storage & Configuration]()
+  - [User Data Directory](en/robust-toolbox/saving-configuration/user-data-directory.md)
 - [Server HTTP API](en/robust-toolbox/server-http-api.md)
-- [Build Configurations](en/robust-toolbox/build-configurations.md)
-- [Preprocessor Defines](en/robust-toolbox/preprocessor-defines.md)
-- [MIDI](en/robust-toolbox/midi.md)
-- [Automatic Client Zip (ACZ)](en/robust-toolbox/acz.md)
+- [Build]()
+  - [Build Configurations](en/robust-toolbox/build/build-configurations.md)
+  - [Preprocessor Defines](en/robust-toolbox/build/preprocessor-defines.md)
+- [Audio]()
+  - [MIDI](en/robust-toolbox/audio/midi.md)
+- [Packaging & Release]()
+  - [Automatic Client Zip (ACZ)](en/robust-toolbox/packaging-release/acz.md)
+  - [Asset Packaging](en/robust-toolbox/packaging-release/asset-packaging.md)
 - [Asset Packaging](en/robust-toolbox/asset-packaging.md)
-- [Publishing a new Robust Toolbox Version](en/robust-toolbox/publishing-robusttoolbox.md)
+- [Internal]()
+  - [Updating CEF](en/engine-development/internal/updating-cef.md)
+  - [Publishing a new Robust Toolbox Version](en/robust-toolbox/internal/publishing-robusttoolbox.md)
+
 
 Space Station 14
 ================
@@ -317,14 +329,6 @@ Community
   - [Wizards Den Banning Policy](en/community/admin/wizards-den-banning-policy.md)
   - [Wizards Den MRP Policy](en/community/admin/wizards-den-mrp-policy.md)
 - [Progress Report Creation](en/community/progress-report-creation.md)
-
-Engine Development
-========================
-
-------------------
-
-- [Testing against launcher](en/engine-development/testing-against-launcher.md)
-- [Updating CEF](en/engine-development/updating-cef.md)
 
 Staff
 ==============
