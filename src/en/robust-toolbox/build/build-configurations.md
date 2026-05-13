@@ -23,7 +23,7 @@ Because of this, we have the following set of configurations in our solutions:
 
 ### Rider
 
-![build-configurations.png](../assets/images/build-configurations.png)
+![build-configurations.png](../../assets/images/build-configurations.png)
 
 Select from that drop-down at the top of the window.
 

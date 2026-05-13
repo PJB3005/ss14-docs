@@ -36,7 +36,7 @@ A minimal project is expected to have at least the following C# projects:
 
 Games can have many more projects if they so desire, for a variety of reasons. The engine has no qualms loading a dozen [Content Modules](content-loading/content-modules.md) at once, if so desired.
 
-Your "main" client and server project (`Content.Client` and `Content.Server`) are encouraged to use [Content Start](content-loading/content-start.md) to make it easier to run them from an IDE. This is not required, however.
+Your "main" client and server project (`Content.Client` and `Content.Server`) are encouraged to use [Content Start](content-loading/content-modules.md#content-start) to make it easier to run them from an IDE. This is not required, however.
 
 ### Changing project prefix
 

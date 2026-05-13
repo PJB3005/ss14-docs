@@ -1,7 +1,7 @@
 # Config File Reference
 
 Config files are [TOML](https://toml.io/), a relatively modern and simple config file format.
-By default, the server loads the config file from `server_config.toml` next to the executable. The client loads it from `GameControllerOptions.ConfigFileName` (defaults to `client_config.toml`) in the [User Data Directory](../../robust-toolbox/user-data-directory.md). 
+By default, the server loads the config file from `server_config.toml` next to the executable. The client loads it from `GameControllerOptions.ConfigFileName` (defaults to `client_config.toml`) in the [User Data Directory](../../robust-toolbox/saving-configuration/user-data-directory.md). 
 
 Config files store "CVars", which is short for "console variable" but may also mean "config variable" depending on how much you care about being accurate to Quake or something. It doesn't really matter. Hey it's short to write.
 

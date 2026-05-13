@@ -7,7 +7,7 @@ So you have choosen to take on the harsh wasteland that is coding UI and working
 
 Great!
 
-But before you can start ~~sacrificing puppies~~ making fancy UIs using our UI system you first need to know how to define a basic UI layout so I recommend reading the [basic user interface documentation](../robust-toolbox/user-interface.md) first.
+But before you can start ~~sacrificing puppies~~ making fancy UIs using our UI system you first need to know how to define a basic UI layout so I recommend reading the [basic user interface documentation](../robust-toolbox/ui/user-interface.md) first.
 
 ## Quick and dirty (Using FancyWindow)
 

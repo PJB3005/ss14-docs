@@ -13,7 +13,7 @@ always appreciated!
 
 Before learning how it should be done in SS14, it's important to understand how
 the engine handles UI. You should reference the
-[user interface documentation](../robust-toolbox/user-interface.md) first.
+[user interface documentation](../robust-toolbox/ui/user-interface.md) first.
 
 Read that? Great.
 

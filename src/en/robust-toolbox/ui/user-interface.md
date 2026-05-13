@@ -12,7 +12,7 @@ Code completion can help a lot with finding what controls and attributes you can
 
 The game's UI is made up of a ton of `Control`s. Each `Control` is one element of the UI system. Controls have various functions, some being obvious things like text labels and buttons, while others serve to lay stuff out automatically.
 
-![escape-menu-ui.png](../assets/images/user-interface/escape-menu-ui.png)
+![escape-menu-ui.png](../../assets/images/user-interface/escape-menu-ui.png)
 
 Here we have a basic UI in the game. As you can see, it is a window made up of multiple buttons. There is one more control at play here, however, and that is `BoxContainer` to automatically lay the buttons out on top of eachother.
 
@@ -55,13 +55,13 @@ This section describes how layout works for a *single* control. Below sections w
 
 All controls are effectively laid out as a bunch of rectangles. They have a size and a position relative to their parent. In the next screenshot you can see the effective rectangle of one of these buttons:  
 
-![escape-menu-button-rect-example.png](../assets/images/user-interface/escape-menu-button-rect-example.png)
+![escape-menu-button-rect-example.png](../../assets/images/user-interface/escape-menu-button-rect-example.png)
 
 (if you're wondering, this is with the `devwindow` UI viewer, type `devwindow` in the game console and go to the UI tab.)
 
 And the parent `BoxContainer` which contains all the buttons:
 
-![escape-menu-button-rect-example-2.png](../assets/images/user-interface/escape-menu-button-rect-example-2.png)
+![escape-menu-button-rect-example-2.png](../../assets/images/user-interface/escape-menu-button-rect-example-2.png)
 
 To properly understand the layout system, there are a few concepts that need to be explained:
 
@@ -79,7 +79,7 @@ This behavior is governed by `HorizontalAlignment` and `VerticalAlignment` on th
 
 `HorizontalAlignment="Center"` on each of the buttons individually:
 
-![escape-menu-shrink-example.png](../assets/images/user-interface/escape-menu-center-example.png)
+![escape-menu-shrink-example.png](../../assets/images/user-interface/escape-menu-center-example.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -97,7 +97,7 @@ This behavior is governed by `HorizontalAlignment` and `VerticalAlignment` on th
 
 `HorizontalAlignment="Left"` on each of the buttons individually:
 
-![escape-menu-left-example.png](../assets/images/user-interface/escape-menu-left-example.png)
+![escape-menu-left-example.png](../../assets/images/user-interface/escape-menu-left-example.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -115,7 +115,7 @@ This behavior is governed by `HorizontalAlignment` and `VerticalAlignment` on th
 
 `HorizontalAlignment="Left"` only on the `BoxContainer` itself. This means we are changing the `BoxContainer` itself to shrink, so it takes the width of the largest button. All the other buttons still expand to fill the space of the `BoxContainer`, so they all have the same size, that of the largest button:
 
-![escape-menu-box-left-example.png](../assets/images/user-interface/escape-menu-box-left-example.png)
+![escape-menu-box-left-example.png](../../assets/images/user-interface/escape-menu-box-left-example.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -168,7 +168,7 @@ These two properties influence the layout of your control **only in a few specif
 
 So what does it do exactly? I'll use `BoxContainer` as an example. Suppose I edit the escape menu so that there's more space than the buttons need:
 
-![escape-menu-expand-example-1.png](../assets/images/user-interface/escape-menu-expand-example-1.png)
+![escape-menu-expand-example-1.png](../../assets/images/user-interface/escape-menu-expand-example-1.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -195,7 +195,7 @@ So what does it do exactly? I'll use `BoxContainer` as an example. Suppose I edi
 
 This is where `VerticalExpand` comes in. If we give a control `VerticalExpand="True"`, watch what happens:
 
-![escape-menu-expand-example-2.png](../assets/images/user-interface/escape-menu-expand-example-2.png)
+![escape-menu-expand-example-2.png](../../assets/images/user-interface/escape-menu-expand-example-2.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -219,7 +219,7 @@ Aha. Now we're making use of that space! The `BoxContainer` is actually giving t
 
 You can give multiple controls `Expand`, and then the expansion will be proportionate to their `SizeFlagsStretchRatio` property:
 
-![escape-menu-expand-example-3.png](../assets/images/user-interface/escape-menu-expand-example-3.png)
+![escape-menu-expand-example-3.png](../../assets/images/user-interface/escape-menu-expand-example-3.png)
 
 <details>
   <summary>XAML Code (click to expand)</summary>
@@ -343,7 +343,7 @@ You can make controls contain other controls ([remember, it's a tree!](#the-cont
 
 The contents of attributes are converted to the type of the property automatically. For simple stuff like numbers, strings, enums, etc... it's quite obvious. For types such as `Vector2` and `Thickness` (used by margins) it's space-separated numbers.
 
-You may have also noticed the funny `{Loc 'ui-...'}` thing. This is called a **markup extension**. The short version is that they're magic you can put in properties to do special stuff. In this case, `{Loc 'key'}` looks up a [localized string](../ss14-by-example/fluent-and-localization.md).
+You may have also noticed the funny `{Loc 'ui-...'}` thing. This is called a **markup extension**. The short version is that they're magic you can put in properties to do special stuff. In this case, `{Loc 'key'}` looks up a [localized string](../../ss14-by-example/fluent-and-localization.md).
 
 ### Usage
 

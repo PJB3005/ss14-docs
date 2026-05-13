@@ -2,7 +2,7 @@
 
 **Automatic Client Zip (ACZ)** is the system that allows the game server to serve game files itself. This makes it possible for the launcher to directly connect to a game server with zero extra infrastructure for asset downloading.
 
-ACZ's core functionality is the ability to serve game assets with the [Delta Updates](../other-projects/launcher/delta-updates-and-manifests.md) system. There are three ways in which ACZ can load the client assets to serve:
+ACZ's core functionality is the ability to serve game assets with the [Delta Updates](../../other-projects/launcher/delta-updates-and-manifests.md) system. There are three ways in which ACZ can load the client assets to serve:
 
 * "Magic" ACZ: client files are read directly from a development environment.
 * "Hybrid" ACZ: client files are read from a bundled zip file created when the server build is packaged.

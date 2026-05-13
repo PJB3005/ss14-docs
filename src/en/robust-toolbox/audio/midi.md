@@ -67,4 +67,4 @@ Content can provide additional soundfonts to be loaded, by including them in the
 
 ### Stage 4: user sound fonts
 
-Users can provide extra sound fonts in their [user data directory](user-data-directory.md), under the path `/soundfonts/`. All sound fonts in this directory (if it exists, it is not created by default) will be loaded.
+Users can provide extra sound fonts in their [user data directory](../saving-configuration/user-data-directory.md), under the path `/soundfonts/`. All sound fonts in this directory (if it exists, it is not created by default) will be loaded.
