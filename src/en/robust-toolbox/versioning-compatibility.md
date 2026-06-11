@@ -1,6 +1,6 @@
 # Versioning & Compatibility
 
-This page describes how RobustToolbox is versioned and what backwards-compatibility guarantees we make.
+This page describes how RobustToolbox is versioned and what backwards-compatibility guarantees we make. It also describes the process for updating your game to a new RobustToolbox version.
 
 ## Version numbers
 
@@ -34,3 +34,7 @@ Patch versions should only contain bugfixes or other minor changes with no obser
 
 The launcher may roll client engine versions forward to a later patch version when necessary, for example to ensure compatibility with newer .NET versions.
 
+## Updating RobustToolbox
+
+The process for updating RobustToolbox is relatively simple:
+* 

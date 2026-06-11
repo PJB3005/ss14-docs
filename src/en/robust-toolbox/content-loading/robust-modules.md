@@ -19,6 +19,8 @@ The launcher will automatically detect the presence of these modules in the mani
 
 Implements support for rendering web content such as HTML pages in windows and UI controls. We really do not recommend you touch this with a 10 foot pole for game UI in new games, it was created to allow OpenDream to run SS13's HTML-based interfaces.
 
+To enable, you must add `Robust.Client.WebView` to your content manifest, add `WebView` to your solution features, and add import `WebView.props` into your relevant client projects. See [Solution & Project Setup](../build/solution-project-setup.md) for the latter two steps.
+
 Currently, [Chromium Embedded Framework](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework) is used as implementation for this, but this may be subject to change in the future if we ever explore better alternatives.
 
 This can take more than three hundred megabytes of disk space to install because of how huge CEF is. God have mercy.

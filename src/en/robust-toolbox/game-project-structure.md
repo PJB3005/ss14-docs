@@ -36,6 +36,8 @@ A minimal project is expected to have at least the following C# projects:
 
 Games can have many more projects if they so desire, for a variety of reasons. The engine has no qualms loading a dozen [Content Modules](content-loading/content-modules.md) at once, if so desired.
 
+See [Solution & Project Setup](./build/solution-project-setup.md) for more details and expectations placed upon your C# projects and solution file. This includes stuff like how to reference Robust's projects and what additional imports are necessary.
+
 Your "main" client and server project (`Content.Client` and `Content.Server`) are encouraged to use [Content Start](content-loading/content-modules.md#content-start) to make it easier to run them from an IDE. This is not required, however.
 
 ### Changing project prefix
@@ -57,6 +59,8 @@ The `Resources/` directory contains all game files that aren't C# code. They are
 The source code for RobustToolbox is itself included in the repository via a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This makes it as easy as possible to read and write engine code (whenever necessary).
 
 Games may use a "`BuildChecker`" to ensure the submodule stays in sync for contributors. This system should be disabled if you intend to modify Robust directly, see [here](modifying/prs-with-engine-changes.md) for details.
+
+See [Versioning & Compatibility](./versioning-compatibility.md) for the process of updating RT to a newer version.
 
 ## `bin` directory
 
